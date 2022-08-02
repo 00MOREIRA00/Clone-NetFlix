@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;800&family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+}
+
+.lists{
+    margin-top: -150px;
+}
+
+footer{
+    margin: 50px 0;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+   .featured{
+    height: 90vh;
+   }
+
+   .featured--name{
+        font-size: 40px;
+   }
+
+   .featured--info{
+    font-size: 16px;
+   }
+
+   .featured--description{
+    font-size: 14px;
+    max-width: 100%;
+    margin-right: 30px;
+   }
+
+   .featured--watchbutton, .featured--mylistbutton{
+    font-size: 16px;
+   }
+
+   .featured--generes{
+    font-size: 14px;
+   }
+
+}
